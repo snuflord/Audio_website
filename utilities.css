@@ -1,0 +1,49 @@
+/* Text Colours */
+
+:root {
+  
+--text-colour: white;
+
+}
+
+.text-primary {
+  color: white;
+}
+
+.text-secondary {
+  color: #0B4F6C;
+}
+
+/* Button styling */
+
+.btn a {
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 1000;
+  transition: all 0.3s ease-in-out;
+  }
+
+.btn a:hover {
+  background: linear-gradient(#C8075a, rgb(209, 64, 64));
+  color: whitesmoke;
+  font-size: 19px;
+  }
+  
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+/* Main Section Styling */
+
+#section {
+  padding: 10rem 5rem;
+  width: auto;
+  height: auto;
+}
+

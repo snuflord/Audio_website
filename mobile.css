@@ -1,0 +1,216 @@
+
+@media (max-width: 1300px) {
+    
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .container img {
+        display: none;
+    }
+
+    #navbar .navbar-container {
+        padding: 0px 30px;
+    }
+
+    .navbar .logo {
+        font-size: 25px;
+    }
+
+    .hero .container .content {
+        height: auto;
+    }
+}
+
+@media (max-width: 900px) {
+
+
+    /* Navigation */
+
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+
+    #navbar .navbar-container {
+        padding: 0px;
+    }
+
+    .navbar h1 {
+        display: none;
+    }
+
+    .navbar li {
+        padding: 1rem 9px;
+        font-size: 12px;
+    }
+
+    .navbar li a {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    /* Container / hero */
+
+    .container .content {
+        height: 250px;
+        padding-top: 80px;
+    }
+
+    .container::before {
+        content: '';
+        background: url(/IMG/tech-background-with-abstract-wave-lines-free-vector.jpeg) no-repeat center center/cover ;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+
+    h1, h2 {
+        font-weight: 200px;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .content p {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .home-info {
+        padding: 20px 20px;
+    }
+
+    .hero .container {
+        grid-template-columns: 1fr;
+        margin: 0 0rem;
+    }
+
+    .container img {
+        display: none;
+        margin: 0rem 0rem;
+        width: 90%;
+        padding: 0px;
+        object-fit: cover;
+    }
+
+    .btn {
+        padding: 0 1rem;
+    }
+
+    .container .content .home-info {
+        padding: 20px;
+    }
+
+    /* ABOUT */
+
+    .section-1 {
+        height: 100vh;
+    }
+
+    .section-1 h2 {
+        padding-top: 30px;
+    }
+
+    .section-1 .boxes {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .boxes .box {
+        height: 100px;
+    }
+
+    .boxes .box-2 {
+        align-self: center;
+    }
+
+    /* SERVICES */
+
+    #section {
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .section-2 h2 {
+        padding-top: 30px;
+    }
+
+   .services-grid {
+       display: block;
+       width: 75%;
+       align-self: center;
+       padding-bottom: 50px;
+   }
+
+   .services-grid .services {
+       margin-bottom: 20px;
+       
+   }
+
+   /* EXAMPLES */
+
+   .section-3 h3 {
+       font-size: 40px;
+       padding-bottom: 5px;
+       padding-top: 50px;
+   }
+
+   .soundcloud-grid {
+       grid-template-columns: 1fr;
+   }
+
+   .section-3 .divider-2 {
+       display: none;
+   }
+
+   /* CONTACT */
+
+   .contact-grid {
+       flex-direction: column;
+       margin: 20px;
+   }
+
+   .contact-grid .column-2 {
+       width: 100%;
+   }
+
+   .contact-grid .column-1 {
+       display: none;
+   }
+
+   #home-c .process {
+       display: grid;
+       grid-template-columns: 1fr;
+       padding-bottom: 3rem;
+   }
+}
+
+@media (max-width:285px) {
+
+    .navbar ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-height:300px) {
+    .content h1 {
+        font-size: 2rem;
+    }
+}
