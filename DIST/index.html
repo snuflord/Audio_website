@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/utilities.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/mobile.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Manchester Audio Reapir</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
                 <div class="home-info"><h1>We repair <span class="emphasis" >damaged</span>  audio files</h1>
                 <p>// We use the latest technology to repair damaged, distorted, and noisy audio recordings for post-production //</p></div>
             </div>
-            <img src="/IMG/spectogram-1.png" alt="Izotope RX8 Spectrogram">
+            <img src="IMG/spectogram-1.png" alt="Izotope RX8 Spectrogram">
         </div>   
     </header>
 
@@ -134,7 +134,7 @@
 <div id="contact"></div>
     <section class="contact-grid">
         <div class="column-1 contact-form">
-            <img src="/IMG/studio.jpg" alt="joe in the studio">
+            <img src="IMG/studio.jpg" alt="Joe in the studio">
         </div>
         <div class="column-2 contact-form">
             <h2>Contact</h2>
@@ -146,12 +146,15 @@
             
             <div>
                <label for="email"></label>
-               <input type="email" name="Email" id="email" placeholder="Enter  email">
+               <input type="email" name="Email" id="email" placeholder="Enter email">
             </div>
             <div>
                 <label for="message"></label>
                 <textarea class="message-input" name="message" id="message" cols="30" rows="10"></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
+
+
             <div class="submit-btn"><input type="submit" value="Send" id="submit" class="btn" /></div>
         </div>
     </form>
