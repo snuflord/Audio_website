@@ -270,6 +270,7 @@ section .soundcloud {
 .contact-grid .message-input {
   width: 100%;
   margin-bottom: 15px;
+  height: 10rem;
 }
 
 .contact-grid .column-2 .btn {
