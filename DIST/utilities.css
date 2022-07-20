@@ -27,7 +27,7 @@
   transition: all 0.3s ease-in-out;
   }
 
-.btn a:hover {
+.btn a:hover, .btn:hover {
   background: linear-gradient(#C8075a, rgb(209, 64, 64));
   color: whitesmoke;
   font-size: 19px;
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease;
   }
 
 /* Main Section Styling */
