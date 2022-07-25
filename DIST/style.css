@@ -366,3 +366,9 @@ section .soundcloud {
   justify-content: center;
   align-items: center;
 }
+
+/* FORM VALIDATION */
+
+#contact .invalid-feedback {
+  color: #C8075a;
+}

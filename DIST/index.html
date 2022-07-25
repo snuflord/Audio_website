@@ -143,7 +143,13 @@
                 <input name="name" class="text-input name-input" placeholder="Name" type="text">
                 <input name="subject" class="text-input subject-input" placeholder="Subject" type="text">
                 <input name="email" class="text-input email-input" placeholder="Email" type="email">
+                    <div class="invalid-feedback">
+                        Enter valid email.
+                    </div>
                 <input name="phone" class="text-input phone-input" placeholder="Phone" type="number">
+                    <div class="invalid-feedback">
+                        Enter valid phone
+                    </div>
                 <textarea name="message" class="text-input message-input" placeholder="Enter message"></textarea>
                 <div class="my-2" data-netlify-recaptcha="true"></div>
             
@@ -189,6 +195,8 @@
       }
     });
   </script>
+
+  <script src="app.js"></script>
 
 </body>
 </html>
