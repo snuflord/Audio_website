@@ -20,6 +20,7 @@
   background: #C8075a;
   color: #ffffff;
   transition: all 1s ease;
+  padding-top: 10px;
 }
 
 .submit-btn:hover {
