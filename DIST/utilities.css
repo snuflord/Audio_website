@@ -16,31 +16,15 @@
 
 /* Button styling */
 
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.submit-btn {
+  background: #C8075a;
+  color: #ffffff;
   transition: all 1s ease;
-  border-radius: 8px;
-  font-size: large;
-  }
+}
 
-.btn a {
-  color: rgb(46, 46, 46);
-  text-decoration: none;
-  background-color: #ffffff;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: 1000;
-  transition: all 0.3s ease-in-out;
-  }
-
-.btn a:hover, .btn:hover {
-  background: linear-gradient(#C8075a, rgb(209, 64, 64));
-  color: whitesmoke;
-  font-size: 20px;
-  }
+.submit-btn:hover {
+  background:#0B4F6C;
+}
   
 /* Main Section Styling */
 
